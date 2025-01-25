@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "Challenge.Controllers.MedicalController",
+    "Method": "AddMedicalRecord",
+    "RelativePath": "api/Medical",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medicalRecordDto",
+        "Type": "Challenge.DTO.TMedicalRecordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge.Controllers.MedicalController",
+    "Method": "GetMedicalRecord",
+    "RelativePath": "api/Medical/{medicalRecordId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medicalRecordId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

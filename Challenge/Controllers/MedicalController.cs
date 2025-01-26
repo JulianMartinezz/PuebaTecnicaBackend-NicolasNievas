@@ -38,6 +38,15 @@ namespace Challenge.Controllers
             return NotFound(response);
         }
 
-
+        [HttpPatch]
+        public async Task<IActionResult> DeleteMedicalRecord([FromBody] DeleteMedicalRecordDTO deleteDto)
+        {
+            var response = await _medicalRecordService.DeleteMedicalRecord(deleteDto);
+            if (response.Success == true)
+            {
+                return Ok(response);
+            }
+            return NotFound(response);
+        }
     }
 }

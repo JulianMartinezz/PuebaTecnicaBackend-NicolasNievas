@@ -34,6 +34,35 @@
             "description": "OK"
           }
         }
+      },
+      "patch": {
+        "tags": [
+          "Medical"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteMedicalRecordDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteMedicalRecordDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteMedicalRecordDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
     "/api/Medical/{medicalRecordId}": {
@@ -62,6 +91,24 @@
   },
   "components": {
     "schemas": {
+      "DeleteMedicalRecordDTO": {
+        "type": "object",
+        "properties": {
+          "medicalRecordId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "deletedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "deletionReason": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "TMedicalRecordDTO": {
         "type": "object",
         "properties": {

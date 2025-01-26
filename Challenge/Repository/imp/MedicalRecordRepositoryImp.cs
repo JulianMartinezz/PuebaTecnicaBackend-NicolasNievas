@@ -23,5 +23,12 @@ namespace Challenge.Repository.imp
         {
             return await _context.TMedicalRecords.FindAsync(medicalRecordId);
         }
+
+        public async Task<TMedicalRecord?> UpdateMedicalRecord(TMedicalRecord medicalRecord)
+        {
+             _context.TMedicalRecords.Update(medicalRecord);
+            await _context.SaveChangesAsync();
+            return medicalRecord;
+        }
     }
 }

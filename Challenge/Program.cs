@@ -25,6 +25,7 @@ builder.Services.AddScoped<IMedicalRecordRepository, MedicalRecordRepositoryImp>
 builder.Services.AddScoped<IMedicalRecordService, MedicalRecordServiceImp>();
 builder.Services.AddScoped<IStatusRepository, StatusRepositoryImp>();
 builder.Services.AddValidatorsFromAssemblyContaining<MedicalRecordValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<DeleteValidator>();
 
 var app = builder.Build();
 

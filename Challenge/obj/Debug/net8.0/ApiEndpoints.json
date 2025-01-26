@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "Challenge.Controllers.MedicalController",
+    "Method": "DeleteMedicalRecord",
+    "RelativePath": "api/Medical",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deleteDto",
+        "Type": "Challenge.DTO.DeleteMedicalRecordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge.Controllers.MedicalController",
     "Method": "GetMedicalRecord",
     "RelativePath": "api/Medical/{medicalRecordId}",
     "HttpMethod": "GET",

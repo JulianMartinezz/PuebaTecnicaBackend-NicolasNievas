@@ -6,5 +6,6 @@ namespace Challenge.Service
     {
         Task<BaseResponse<TMedicalRecordDTO>> AddMedicalRecord(TMedicalRecordDTO request);
         Task<BaseResponse<TMedicalRecordDTO>> GetMedicalRecordById(int medicalRecordId);
+        Task<BaseResponse<TMedicalRecordDTO>> DeleteMedicalRecord(DeleteMedicalRecordDTO deleteDto);
     }
 }

@@ -11,12 +11,14 @@ namespace Challenge.Service.Imp
         private readonly IMedicalRecordRepository _medicalRecordRepository;
         private readonly IMapper _mapper;
         private readonly MedicalRecordValidator _medicalRecordValidator;
+        private readonly IStatusRepository _statusRepository;
 
-        public MedicalRecordServiceImp(IMedicalRecordRepository medicalRecordRepository, IMapper mapper, MedicalRecordValidator medicalRecordValidator)
+        public MedicalRecordServiceImp(IMedicalRecordRepository medicalRecordRepository, IMapper mapper, MedicalRecordValidator medicalRecordValidator, IStatusRepository statusRepository)
         {
             _medicalRecordRepository = medicalRecordRepository;
             _mapper = mapper;
             _medicalRecordValidator = medicalRecordValidator;
+            _statusRepository = statusRepository;
         }
 
         public async Task<BaseResponse<TMedicalRecordDTO>> AddMedicalRecord(TMedicalRecordDTO request)
@@ -47,6 +49,63 @@ namespace Challenge.Service.Imp
                 {
                     Success = false,
                     Message = "Error Adding Medical Record",
+                    Exception = ex.Message
+                };
+            }
+        }
+
+        public async Task<BaseResponse<TMedicalRecordDTO>> DeleteMedicalRecord(DeleteMedicalRecordDTO deleteDto)
+        {
+            try
+            {
+                var validator = new DeleteValidator(_statusRepository, _medicalRecordRepository);
+                var validationResult = await validator.ValidateAsync(new TMedicalRecordDTO { MedicalRecordId = deleteDto.MedicalRecordId });
+
+                if (!validationResult.IsValid)
+                {
+                    return new BaseResponse<TMedicalRecordDTO>
+                    {
+                        Success = false,
+                        Message = "Validation Failed",
+                        Exception = string.Join(", ", validationResult.Errors.Select(e => e.ErrorMessage))
+                    };
+                }
+
+                var medicalRecord = await _medicalRecordRepository.GetMedicalRecordById(deleteDto.MedicalRecordId);
+                if (medicalRecord == null)
+                {
+                    return new BaseResponse<TMedicalRecordDTO>
+                    {
+                        Success = false,
+                        Message = "Medical Record Not Found",
+                        Code = 404
+                    };
+                }
+
+                medicalRecord.StatusId = 2;
+                medicalRecord.DeletionDate = DateOnly.FromDateTime(DateTime.Today);
+                medicalRecord.DeletedBy = deleteDto.DeletedBy;
+                medicalRecord.DeletionReason = deleteDto.DeletionReason;
+                medicalRecord.EndDate = DateOnly.FromDateTime(DateTime.Today);
+
+                var updatedRecord = await _medicalRecordRepository.UpdateMedicalRecord(medicalRecord);
+
+                var updatedRecordDto = _mapper.Map<TMedicalRecordDTO>(updatedRecord);
+
+                return new BaseResponse<TMedicalRecordDTO>
+                {
+                    Success = true,
+                    Message = "Medical Record Deleted Successfully",
+                    Data = updatedRecordDto,
+                    Code = 200
+                };
+            }
+            catch (Exception ex)
+            {
+                return new BaseResponse<TMedicalRecordDTO>
+                {
+                    Success = false,
+                    Message = "Error Deleting Medical Record",
                     Exception = ex.Message
                 };
             }

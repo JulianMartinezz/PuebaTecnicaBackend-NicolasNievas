@@ -72,15 +72,6 @@ namespace Challenge.Service.Imp
                 }
 
                 var medicalRecord = await _medicalRecordRepository.GetMedicalRecordById(deleteDto.MedicalRecordId);
-                if (medicalRecord == null)
-                {
-                    return new BaseResponse<TMedicalRecordDTO>
-                    {
-                        Success = false,
-                        Message = "Medical Record Not Found",
-                        Code = 404
-                    };
-                }
 
                 medicalRecord.StatusId = 2;
                 medicalRecord.DeletionDate = DateOnly.FromDateTime(DateTime.Today);

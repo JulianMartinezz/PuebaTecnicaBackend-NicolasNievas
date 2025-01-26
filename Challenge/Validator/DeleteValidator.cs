@@ -22,6 +22,15 @@ namespace Challenge.Validator
 
             RuleFor(x => x)
                 .MustAsync(BeValidStatus).WithMessage("Medical Record is already Inactive");
+
+            RuleFor(x => x.MedicalRecordId)
+                .MustAsync(Exist).WithMessage("Medical Record does not exist");
+        }
+
+        private async Task<bool> Exist(int id, CancellationToken token)
+        {
+            var exists = await _medicalRecordRepository.GetMedicalRecordById(id);
+            return exists != null;
         }
 
         private async Task<bool> BeValidStatus(DeleteMedicalRecordDTO deleteDto, CancellationToken cancellationToken)
@@ -29,7 +38,7 @@ namespace Challenge.Validator
             var medicalRecord = await _medicalRecordRepository.GetMedicalRecordById(deleteDto.MedicalRecordId);
 
             if (medicalRecord == null)
-                return false;
+                return true;
 
             var status = await _statusRepository.GetById(medicalRecord.StatusId);
             if (status == null)

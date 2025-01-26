@@ -4,7 +4,7 @@ using FluentValidation;
 
 namespace Challenge.Validator
 {
-    public class DeleteValidator : AbstractValidator<TMedicalRecordDTO>
+    public class DeleteValidator : AbstractValidator<DeleteMedicalRecordDTO>
     {
         private readonly IStatusRepository _statusRepository;
         private readonly IMedicalRecordRepository _medicalRecordRepository;
@@ -20,13 +20,18 @@ namespace Challenge.Validator
             RuleFor(x => x.DeletedBy)
                 .NotEmpty().WithMessage("Deleted By is required");
 
-            RuleFor(x => x.StatusId)
-                .MustAsync((statusID, cancellationToken) => BeValidStatus(statusID, cancellationToken));
+            RuleFor(x => x)
+                .MustAsync(BeValidStatus).WithMessage("Medical Record is already Inactive");
         }
 
-        private async Task<bool> BeValidStatus(int? statusID, CancellationToken cancellationToken)
+        private async Task<bool> BeValidStatus(DeleteMedicalRecordDTO deleteDto, CancellationToken cancellationToken)
         {
-            var status = await _statusRepository.GetById(statusID);
+            var medicalRecord = await _medicalRecordRepository.GetMedicalRecordById(deleteDto.MedicalRecordId);
+
+            if (medicalRecord == null)
+                return false;
+
+            var status = await _statusRepository.GetById(medicalRecord.StatusId);
             if (status == null)
                 return false;
 

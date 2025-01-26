@@ -59,7 +59,7 @@ namespace Challenge.Service.Imp
             try
             {
                 var validator = new DeleteValidator(_statusRepository, _medicalRecordRepository);
-                var validationResult = await validator.ValidateAsync(new TMedicalRecordDTO { MedicalRecordId = deleteDto.MedicalRecordId });
+                var validationResult = await validator.ValidateAsync(deleteDto);
 
                 if (!validationResult.IsValid)
                 {

@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\validator\\updatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:validator\\updatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\validator\\medicalrecordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:validator\\medicalrecordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,36 +11,52 @@
       "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:service\\imp\\medicalrecordserviceimp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\validator\\updatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:validator\\updatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\validator\\createvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:validator\\createvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\service\\imedicalrecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:service\\imedicalrecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\controllers\\medicalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:controllers\\medicalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\validator\\deletevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:validator\\deletevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\service\\imedicalrecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:service\\imedicalrecordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\repository\\imp\\medicalrecordrepositoryimp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:repository\\imp\\medicalrecordrepositoryimp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\dto\\deletemedicalrecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:dto\\deletemedicalrecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\repository\\imedicalrecordtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:repository\\imedicalrecordtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\dto\\medicalrecordfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:dto\\medicalrecordfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\repository\\istatusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:repository\\istatusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\repository\\imedicalrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:repository\\imedicalrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\mapper\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:mapper\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\dto\\medicalrecordtypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,16 +75,24 @@
       "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:models\\medicalrecordtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\models\\tmedicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:models\\tmedicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\repository\\imedicalrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:repository\\imedicalrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\controllers\\medicalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:controllers\\medicalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\dto\\deletemedicalrecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:dto\\deletemedicalrecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\dto\\medicalrecordfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:dto\\medicalrecordfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\dto\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,24 +107,8 @@
       "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:repository\\imp\\statusrepositoryimp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\repository\\istatusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:repository\\istatusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\repository\\imedicalrecordtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:repository\\imedicalrecordtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\mapper\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:mapper\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\data\\medicalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:data\\medicalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|d:\\misproyectos\\puebatecnicabackend-nicolasnievas\\challenge\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FAE7FC91-61D1-4ED6-B7E9-992998DEAB59}|Challenge.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -114,32 +118,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-27T14:39:10.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MedicalRecordRepositoryImp.cs",
+              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Repository\\imp\\MedicalRecordRepositoryImp.cs",
+              "RelativeDocumentMoniker": "Repository\\imp\\MedicalRecordRepositoryImp.cs",
+              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Repository\\imp\\MedicalRecordRepositoryImp.cs",
+              "RelativeToolTip": "Repository\\imp\\MedicalRecordRepositoryImp.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T23:45:50.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IMedicalRecordService.cs",
               "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Service\\IMedicalRecordService.cs",
               "RelativeDocumentMoniker": "Service\\IMedicalRecordService.cs",
               "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Service\\IMedicalRecordService.cs",
               "RelativeToolTip": "Service\\IMedicalRecordService.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAApwAoAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAApwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T23:27:55.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-24T23:27:55.887Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MedicalRecordServiceImp.cs",
               "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Service\\Imp\\MedicalRecordServiceImp.cs",
               "RelativeDocumentMoniker": "Service\\Imp\\MedicalRecordServiceImp.cs",
               "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Service\\Imp\\MedicalRecordServiceImp.cs",
               "RelativeToolTip": "Service\\Imp\\MedicalRecordServiceImp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAcwBgAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T23:28:16.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MedicalRecordValidator.cs",
+              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Validator\\MedicalRecordValidator.cs",
+              "RelativeDocumentMoniker": "Validator\\MedicalRecordValidator.cs",
+              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Validator\\MedicalRecordValidator.cs",
+              "RelativeToolTip": "Validator\\MedicalRecordValidator.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAowFgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T23:50:22.985Z",
               "EditorCaption": ""
             },
             {
@@ -150,75 +190,9 @@
               "RelativeDocumentMoniker": "Validator\\DeleteValidator.cs",
               "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Validator\\DeleteValidator.cs",
               "RelativeToolTip": "Validator\\DeleteValidator.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAuwDEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwDAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T22:39:39.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MedicalRecordValidator.cs",
-              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Validator\\MedicalRecordValidator.cs",
-              "RelativeDocumentMoniker": "Validator\\MedicalRecordValidator.cs",
-              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Validator\\MedicalRecordValidator.cs",
-              "RelativeToolTip": "Validator\\MedicalRecordValidator.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAiwCgAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T23:50:22.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAArwB4AAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T23:09:18.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MedicalController.cs",
-              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Controllers\\MedicalController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MedicalController.cs",
-              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Controllers\\MedicalController.cs",
-              "RelativeToolTip": "Controllers\\MedicalController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAswEEAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T23:21:48.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UpdateValidator.cs",
-              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Validator\\UpdateValidator.cs",
-              "RelativeDocumentMoniker": "Validator\\UpdateValidator.cs",
-              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Validator\\UpdateValidator.cs",
-              "RelativeToolTip": "Validator\\UpdateValidator.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAYAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T23:59:35.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DeleteMedicalRecordDTO.cs",
-              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\DeleteMedicalRecordDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\DeleteMedicalRecordDTO.cs",
-              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\DeleteMedicalRecordDTO.cs",
-              "RelativeToolTip": "DTO\\DeleteMedicalRecordDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T23:21:33.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T22:39:39.007Z"
             },
             {
               "$type": "Document",
@@ -228,183 +202,51 @@
               "RelativeDocumentMoniker": "Validator\\CreateValidator.cs",
               "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Validator\\CreateValidator.cs",
               "RelativeToolTip": "Validator\\CreateValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T00:03:14.186Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MedicalRecordRepositoryImp.cs",
-              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Repository\\imp\\MedicalRecordRepositoryImp.cs",
-              "RelativeDocumentMoniker": "Repository\\imp\\MedicalRecordRepositoryImp.cs",
-              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Repository\\imp\\MedicalRecordRepositoryImp.cs",
-              "RelativeToolTip": "Repository\\imp\\MedicalRecordRepositoryImp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UpdateValidator.cs",
+              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Validator\\UpdateValidator.cs",
+              "RelativeDocumentMoniker": "Validator\\UpdateValidator.cs",
+              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Validator\\UpdateValidator.cs",
+              "RelativeToolTip": "Validator\\UpdateValidator.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T23:45:50.863Z",
+              "WhenOpened": "2025-01-26T23:59:35.074Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-24T22:44:39.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAArwB4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T23:09:18.339Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "MedicalRecordFilterDTO.cs",
-              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\MedicalRecordFilterDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\MedicalRecordFilterDTO.cs",
-              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\MedicalRecordFilterDTO.cs",
-              "RelativeToolTip": "DTO\\MedicalRecordFilterDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T18:25:07.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MedicalRecordTypeDTO.cs",
-              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\MedicalRecordTypeDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\MedicalRecordTypeDTO.cs",
-              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\MedicalRecordTypeDTO.cs",
-              "RelativeToolTip": "DTO\\MedicalRecordTypeDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T22:55:52.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "StatusDTO.cs",
-              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\StatusDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\StatusDTO.cs",
-              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\StatusDTO.cs",
-              "RelativeToolTip": "DTO\\StatusDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T22:55:28.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TMedicalRecordDTO.cs",
-              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\TMedicalRecordDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\TMedicalRecordDTO.cs",
-              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\TMedicalRecordDTO.cs",
-              "RelativeToolTip": "DTO\\TMedicalRecordDTO.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAgwDgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T22:56:14.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MedicalRecordType.cs",
-              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Models\\MedicalRecordType.cs",
-              "RelativeDocumentMoniker": "Models\\MedicalRecordType.cs",
-              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Models\\MedicalRecordType.cs",
-              "RelativeToolTip": "Models\\MedicalRecordType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T22:55:06.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Status.cs",
-              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Models\\Status.cs",
-              "RelativeDocumentMoniker": "Models\\Status.cs",
-              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Models\\Status.cs",
-              "RelativeToolTip": "Models\\Status.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T22:55:10.612Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "TMedicalRecord.cs",
-              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Models\\TMedicalRecord.cs",
-              "RelativeDocumentMoniker": "Models\\TMedicalRecord.cs",
-              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Models\\TMedicalRecord.cs",
-              "RelativeToolTip": "Models\\TMedicalRecord.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T22:55:12.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IMedicalRecordRepository.cs",
-              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Repository\\IMedicalRecordRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\IMedicalRecordRepository.cs",
-              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Repository\\IMedicalRecordRepository.cs",
-              "RelativeToolTip": "Repository\\IMedicalRecordRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T23:12:43.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "BaseResponse.cs",
-              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\BaseResponse.cs",
-              "RelativeDocumentMoniker": "DTO\\BaseResponse.cs",
-              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\BaseResponse.cs",
-              "RelativeToolTip": "DTO\\BaseResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T23:38:13.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MedicalRecordTypeRepositoryImp.cs",
-              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Repository\\imp\\MedicalRecordTypeRepositoryImp.cs",
-              "RelativeDocumentMoniker": "Repository\\imp\\MedicalRecordTypeRepositoryImp.cs",
-              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Repository\\imp\\MedicalRecordTypeRepositoryImp.cs",
-              "RelativeToolTip": "Repository\\imp\\MedicalRecordTypeRepositoryImp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T04:53:08.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "StatusRepositoryImp.cs",
-              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Repository\\imp\\StatusRepositoryImp.cs",
-              "RelativeDocumentMoniker": "Repository\\imp\\StatusRepositoryImp.cs",
-              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Repository\\imp\\StatusRepositoryImp.cs",
-              "RelativeToolTip": "Repository\\imp\\StatusRepositoryImp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T23:18:58.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IStatusRepository.cs",
-              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Repository\\IStatusRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\IStatusRepository.cs",
-              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Repository\\IStatusRepository.cs",
-              "RelativeToolTip": "Repository\\IStatusRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T23:16:48.717Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
               "Title": "IMedicalRecordTypeRepository.cs",
               "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Repository\\IMedicalRecordTypeRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IMedicalRecordTypeRepository.cs",
@@ -412,25 +254,191 @@
               "RelativeToolTip": "Repository\\IMedicalRecordTypeRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T04:52:52.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T04:52:52.069Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 11,
+              "Title": "IStatusRepository.cs",
+              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Repository\\IStatusRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IStatusRepository.cs",
+              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Repository\\IStatusRepository.cs",
+              "RelativeToolTip": "Repository\\IStatusRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T23:16:48.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IMedicalRecordRepository.cs",
+              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Repository\\IMedicalRecordRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IMedicalRecordRepository.cs",
+              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Repository\\IMedicalRecordRepository.cs",
+              "RelativeToolTip": "Repository\\IMedicalRecordRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T23:12:43.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Mapper.cs",
               "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Mapper\\Mapper.cs",
               "RelativeDocumentMoniker": "Mapper\\Mapper.cs",
               "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Mapper\\Mapper.cs",
               "RelativeToolTip": "Mapper\\Mapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T22:50:40.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-24T22:50:40.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MedicalRecordTypeDTO.cs",
+              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\MedicalRecordTypeDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\MedicalRecordTypeDTO.cs",
+              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\MedicalRecordTypeDTO.cs",
+              "RelativeToolTip": "DTO\\MedicalRecordTypeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T22:55:52.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StatusDTO.cs",
+              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\StatusDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\StatusDTO.cs",
+              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\StatusDTO.cs",
+              "RelativeToolTip": "DTO\\StatusDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T22:55:28.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TMedicalRecordDTO.cs",
+              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\TMedicalRecordDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\TMedicalRecordDTO.cs",
+              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\TMedicalRecordDTO.cs",
+              "RelativeToolTip": "DTO\\TMedicalRecordDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T22:56:14.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MedicalRecordType.cs",
+              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Models\\MedicalRecordType.cs",
+              "RelativeDocumentMoniker": "Models\\MedicalRecordType.cs",
+              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Models\\MedicalRecordType.cs",
+              "RelativeToolTip": "Models\\MedicalRecordType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T22:55:06.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TMedicalRecord.cs",
+              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Models\\TMedicalRecord.cs",
+              "RelativeDocumentMoniker": "Models\\TMedicalRecord.cs",
+              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Models\\TMedicalRecord.cs",
+              "RelativeToolTip": "Models\\TMedicalRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T22:55:12.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Status.cs",
+              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Models\\Status.cs",
+              "RelativeDocumentMoniker": "Models\\Status.cs",
+              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Models\\Status.cs",
+              "RelativeToolTip": "Models\\Status.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T22:55:10.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DeleteMedicalRecordDTO.cs",
+              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\DeleteMedicalRecordDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\DeleteMedicalRecordDTO.cs",
+              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\DeleteMedicalRecordDTO.cs",
+              "RelativeToolTip": "DTO\\DeleteMedicalRecordDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-25T23:21:33.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MedicalController.cs",
+              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Controllers\\MedicalController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MedicalController.cs",
+              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Controllers\\MedicalController.cs",
+              "RelativeToolTip": "Controllers\\MedicalController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAswEEAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T23:21:48.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MedicalRecordFilterDTO.cs",
+              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\MedicalRecordFilterDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\MedicalRecordFilterDTO.cs",
+              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\MedicalRecordFilterDTO.cs",
+              "RelativeToolTip": "DTO\\MedicalRecordFilterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T18:25:07.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BaseResponse.cs",
+              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\BaseResponse.cs",
+              "RelativeDocumentMoniker": "DTO\\BaseResponse.cs",
+              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\DTO\\BaseResponse.cs",
+              "RelativeToolTip": "DTO\\BaseResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T23:38:13.279Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
+              "Title": "MedicalRecordTypeRepositoryImp.cs",
+              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Repository\\imp\\MedicalRecordTypeRepositoryImp.cs",
+              "RelativeDocumentMoniker": "Repository\\imp\\MedicalRecordTypeRepositoryImp.cs",
+              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Repository\\imp\\MedicalRecordTypeRepositoryImp.cs",
+              "RelativeToolTip": "Repository\\imp\\MedicalRecordTypeRepositoryImp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T04:53:08.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "StatusRepositoryImp.cs",
+              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Repository\\imp\\StatusRepositoryImp.cs",
+              "RelativeDocumentMoniker": "Repository\\imp\\StatusRepositoryImp.cs",
+              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Repository\\imp\\StatusRepositoryImp.cs",
+              "RelativeToolTip": "Repository\\imp\\StatusRepositoryImp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T23:18:58.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "MedicalContext.cs",
               "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\Data\\MedicalContext.cs",
               "RelativeDocumentMoniker": "Data\\MedicalContext.cs",
@@ -439,18 +447,6 @@
               "ViewState": "AgIAAFoAAAAAAAAAAAAmwDYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T22:47:46.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\MisProyectos\\PuebaTecnicaBackend-NicolasNievas\\Challenge\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-24T22:44:39.101Z"
             }
           ]
         }

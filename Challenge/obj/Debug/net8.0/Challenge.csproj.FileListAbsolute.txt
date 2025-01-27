@@ -141,3 +141,15 @@ D:\MisProyectos\PuebaTecnicaBackend-NicolasNievas\Challenge\obj\Debug\net8.0\ref
 D:\MisProyectos\PuebaTecnicaBackend-NicolasNievas\Challenge\obj\Debug\net8.0\Challenge.pdb
 D:\MisProyectos\PuebaTecnicaBackend-NicolasNievas\Challenge\obj\Debug\net8.0\Challenge.genruntimeconfig.cache
 D:\MisProyectos\PuebaTecnicaBackend-NicolasNievas\Challenge\obj\Debug\net8.0\ref\Challenge.dll
+D:\MisProyectos\PuebaTecnicaBackend-NicolasNievas\Challenge\bin\Debug\net8.0\out\out\web.config
+D:\MisProyectos\PuebaTecnicaBackend-NicolasNievas\Challenge\bin\Debug\net8.0\out\web.config
+D:\MisProyectos\PuebaTecnicaBackend-NicolasNievas\Challenge\bin\Debug\net8.0\out\appsettings.Development.json
+D:\MisProyectos\PuebaTecnicaBackend-NicolasNievas\Challenge\bin\Debug\net8.0\out\appsettings.json
+D:\MisProyectos\PuebaTecnicaBackend-NicolasNievas\Challenge\bin\Debug\net8.0\out\Challenge.deps.json
+D:\MisProyectos\PuebaTecnicaBackend-NicolasNievas\Challenge\bin\Debug\net8.0\out\Challenge.runtimeconfig.json
+D:\MisProyectos\PuebaTecnicaBackend-NicolasNievas\Challenge\bin\Debug\net8.0\out\Challenge.staticwebassets.endpoints.json
+D:\MisProyectos\PuebaTecnicaBackend-NicolasNievas\Challenge\bin\Debug\net8.0\out\out\appsettings.Development.json
+D:\MisProyectos\PuebaTecnicaBackend-NicolasNievas\Challenge\bin\Debug\net8.0\out\out\appsettings.json
+D:\MisProyectos\PuebaTecnicaBackend-NicolasNievas\Challenge\bin\Debug\net8.0\out\out\Challenge.deps.json
+D:\MisProyectos\PuebaTecnicaBackend-NicolasNievas\Challenge\bin\Debug\net8.0\out\out\Challenge.runtimeconfig.json
+D:\MisProyectos\PuebaTecnicaBackend-NicolasNievas\Challenge\bin\Debug\net8.0\out\out\Challenge.staticwebassets.endpoints.json

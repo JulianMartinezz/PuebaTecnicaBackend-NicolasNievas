@@ -6,6 +6,9 @@ using Challenge.Validator;
 
 namespace Challenge.Service.Imp
 {
+    /// <summary>
+    /// Implementación del servicio de registros médicos que maneja las operaciones CRUD sobre los registros médicos.
+    /// </summary>
     public class MedicalRecordServiceImp : IMedicalRecordService
     {
         private readonly IMedicalRecordRepository _medicalRecordRepository;
@@ -14,6 +17,9 @@ namespace Challenge.Service.Imp
         private readonly CreateValidator _createValidator;
         private readonly UpdateValidator _updateValidator;
 
+        /// <summary>
+        /// Constructor de la clase, inyectando las dependencias necesarias.
+        /// </summary>
         public MedicalRecordServiceImp(IMedicalRecordRepository medicalRecordRepository, 
             IMapper mapper, 
             MedicalRecordValidator medicalRecordValidator, 
@@ -28,6 +34,11 @@ namespace Challenge.Service.Imp
             _updateValidator = updateValidator;
         }
 
+        /// <summary>
+        /// Agrega un nuevo registro médico.
+        /// </summary>
+        /// <param name="request">DTO que contiene la información del registro médico a agregar.</param>
+        /// <returns>Respuesta con el DTO del registro médico agregado.</returns>
         public async Task<BaseResponse<TMedicalRecordDTO>> AddMedicalRecord(TMedicalRecordDTO request)
         {
             try
@@ -75,6 +86,11 @@ namespace Challenge.Service.Imp
             }
         }
 
+        /// <summary>
+        /// Elimina un registro médico de acuerdo con los datos de eliminación proporcionados.
+        /// </summary>
+        /// <param name="deleteDto">DTO que contiene los datos para la eliminación del registro médico.</param>
+        /// <returns>Respuesta con el DTO del registro médico eliminado.</returns>
         public async Task<BaseResponse<TMedicalRecordDTO>> DeleteMedicalRecord(DeleteMedicalRecordDTO deleteDto)
         {
             try
@@ -125,6 +141,11 @@ namespace Challenge.Service.Imp
             }
         }
 
+        /// <summary>
+        /// Recupera registros médicos filtrados según el filtro proporcionado.
+        /// </summary>
+        /// <param name="filter">Filtro con criterios de búsqueda.</param>
+        /// <returns>Respuesta con la lista de registros médicos filtrados.</returns>
         public async Task<BaseResponse<IEnumerable<TMedicalRecordDTO>>> GetFilterMedicalRecords(MedicalRecordFilterDTO filter)
         {
             try
@@ -169,6 +190,11 @@ namespace Challenge.Service.Imp
             }
         }
 
+        /// <summary>
+        /// Obtiene un registro médico por su identificador.
+        /// </summary>
+        /// <param name="medicalRecordId">Identificador del registro médico.</param>
+        /// <returns>Respuesta con el DTO del registro médico.</returns>
         public async Task<BaseResponse<TMedicalRecordDTO>> GetMedicalRecordById(int medicalRecordId)
         {
             try
@@ -207,6 +233,11 @@ namespace Challenge.Service.Imp
             }
         }
 
+        /// <summary>
+        /// Actualiza un registro médico con los nuevos datos proporcionados.
+        /// </summary>
+        /// <param name="dto">DTO que contiene los nuevos datos para actualizar el registro médico.</param>
+        /// <returns>Respuesta con el DTO del registro médico actualizado.</returns>
         public async Task<BaseResponse<TMedicalRecordDTO>> UpdateMedicalRecord(TMedicalRecordDTO dto)
         {
             try

@@ -4,11 +4,20 @@ using FluentValidation;
 
 namespace Challenge.Validator
 {
+    /// <summary>
+    /// Validador para la actualización de registros médicos.
+    /// </summary>
     public class UpdateValidator : MedicalRecordValidator
     {
         private readonly IMedicalRecordRepository _medicalRecordRepository;
         private readonly IStatusRepository _statusRepository;
 
+        /// <summary>
+        /// Inicializa una nueva instancia de <see cref="UpdateValidator"/>.
+        /// </summary>
+        /// <param name="statusRepository">Repositorio para la gestión de estados.</param>
+        /// <param name="medicalRecordTypeRepository">Repositorio para la gestión de tipos de registros médicos.</param>
+        /// <param name="medicalRecordRepository">Repositorio para la gestión de registros médicos.</param>
         public UpdateValidator(IStatusRepository statusRepository,
             IMedicalRecordTypeRepository medicalRecordTypeRepository,
             IMedicalRecordRepository medicalRecordRepository) 
@@ -27,6 +36,9 @@ namespace Challenge.Validator
 
                 RuleFor(x => x.EndDate)
                     .NotEmpty().WithMessage("End Date is required when changing to Inactive status");
+
+                RuleFor(x => x.DeletedBy)
+                    .NotEmpty().WithMessage("Deleted By is required when changing to Inactive status");
             });
 
             RuleFor(x => x)
@@ -40,6 +52,12 @@ namespace Challenge.Validator
             });
         }
 
+        /// <summary>
+        /// Valida que el registro médico pueda ser actualizado.
+        /// </summary>
+        /// <param name="dto">Objeto <see cref="TMedicalRecordDTO"/> a validar.</param>
+        /// <param name="token">Token para cancelación de la operación.</param>
+        /// <returns>True si el registro es válido para actualizar; de lo contrario, false.</returns>
         private async Task<bool> BeValidForUpdate(TMedicalRecordDTO dto, CancellationToken token)
         {
             var existingRecord = await _medicalRecordRepository.GetMedicalRecordById(dto.MedicalRecordId);

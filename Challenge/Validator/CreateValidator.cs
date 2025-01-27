@@ -3,8 +3,16 @@ using FluentValidation;
 
 namespace Challenge.Validator
 {
+    /// <summary>
+    /// Validador para la creación de registros médicos.
+    /// </summary>
     public class CreateValidator : MedicalRecordValidator
     {
+        /// <summary>
+        /// Inicializa una nueva instancia de <see cref="CreateValidator"/>.
+        /// </summary>
+        /// <param name="statusRepository">Repositorio para la gestión de estados.</param>
+        /// <param name="medicalRecordTypeRepository">Repositorio para la gestión de tipos de registros médicos.</param>
         public CreateValidator(IStatusRepository statusRepository, IMedicalRecordTypeRepository medicalRecordTypeRepository)
             : base(statusRepository, medicalRecordTypeRepository)
         {
@@ -14,6 +22,9 @@ namespace Challenge.Validator
 
             RuleFor(x => x.CreatedBy)
                 .NotEmpty().WithMessage("Created By is required");
+
+            RuleFor(x => x.EndDate)
+                .Null().WithMessage("End Date must not be provided when creating a new record");
         }
     }
 }

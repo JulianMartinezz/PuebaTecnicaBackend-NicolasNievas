@@ -17,7 +17,18 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: '8.0.x'
+    - name: Find solution file
+      id: find-sln
+      run: |
+        # Busca el archivo .sln dentro del repositorio
+        FILE=$(find . -name "*.sln" | head -n 1)
+        if [ -z "$FILE" ]; then
+          echo "No se encontró un archivo .sln en el repositorio."
+          exit 1
+        fi
+        echo "Archivo de solución encontrado: $FILE"
+        echo "sln-path=$FILE" >> $GITHUB_ENV
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore ${{ env.sln-path }}
     - name: Build the project
-      run: dotnet build --no-restore
+      run: dotnet build --no-restore ${{ env.sln-path }}

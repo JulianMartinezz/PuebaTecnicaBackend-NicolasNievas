@@ -81,20 +81,6 @@ namespace Challenge.Validator
                 RuleFor(x => x.Observations)
                     .NotEmpty().WithMessage("Observations are required when Position Change is Yes");
             });
-
-            // Validación a revisar segun requerimientos
-            When(x => x.EndDate.HasValue, () => {
-                RuleFor(x => x)
-                .Must(x => x.StartDate < x.EndDate)
-                .WithMessage("End Date must be later than Start Date");
-            });
-
-            // Validación a revisar segun requerimientos
-            When(x => x.EndDate.HasValue, () => {
-                RuleFor(x => x.StatusId)
-                    .Equal(2)
-                    .WithMessage("When End Date is provided, Status must be Inactive");
-            });
         }
 
         private bool BeNotFutureDate(DateOnly? startDate){

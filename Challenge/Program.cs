@@ -24,8 +24,11 @@ builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 builder.Services.AddScoped<IMedicalRecordRepository, MedicalRecordRepositoryImp>();
 builder.Services.AddScoped<IMedicalRecordService, MedicalRecordServiceImp>();
 builder.Services.AddScoped<IStatusRepository, StatusRepositoryImp>();
+builder.Services.AddScoped<IMedicalRecordTypeRepository, MedicalRecordTypeRepositoryImp>();
 builder.Services.AddValidatorsFromAssemblyContaining<MedicalRecordValidator>();
 builder.Services.AddValidatorsFromAssemblyContaining<DeleteValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<UpdateValidator>();
 
 var app = builder.Build();
 

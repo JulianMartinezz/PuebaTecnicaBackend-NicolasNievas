@@ -27,6 +27,17 @@ namespace Challenge.Controllers
             return BadRequest(response);
         }
 
+        [HttpGet]
+        public async Task<IActionResult> GetFilterMedicalRecords([FromQuery] MedicalRecordFilterDTO filter)
+        {
+            var response = await _medicalRecordService.GetFilterMedicalRecords(filter);
+            if (response.Success == true)
+            {
+                return Ok(response);
+            }
+            return NotFound(response);
+        }
+
         [HttpGet("{medicalRecordId}")]
         public async Task<IActionResult> GetMedicalRecord(int medicalRecordId)
         {
@@ -42,6 +53,17 @@ namespace Challenge.Controllers
         public async Task<IActionResult> DeleteMedicalRecord([FromBody] DeleteMedicalRecordDTO deleteDto)
         {
             var response = await _medicalRecordService.DeleteMedicalRecord(deleteDto);
+            if (response.Success == true)
+            {
+                return Ok(response);
+            }
+            return NotFound(response);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateMedicalRecord([FromBody] TMedicalRecordDTO medicalRecordDto)
+        {
+            var response = await _medicalRecordService.UpdateMedicalRecord(medicalRecordDto);
             if (response.Success == true)
             {
                 return Ok(response);

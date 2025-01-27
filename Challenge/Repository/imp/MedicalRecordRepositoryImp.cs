@@ -1,5 +1,7 @@
 ﻿using Challenge.Data;
+using Challenge.DTO;
 using Challenge.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Challenge.Repository.imp
 {
@@ -17,6 +19,32 @@ namespace Challenge.Repository.imp
             _context.TMedicalRecords.Add(medicalRecord);
             await _context.SaveChangesAsync();
             return medicalRecord;
+        }
+
+        public async Task<(List<TMedicalRecord> Medical, int TotalCount)> GetFilterMedicalRecords(MedicalRecordFilterDTO filter)
+        {
+            var query = _context.TMedicalRecords.AsQueryable();
+
+            if (filter.StatusId.HasValue)
+                query = query.Where(x => x.StatusId == filter.StatusId);
+
+            if (filter.MedicalRecordTypeId.HasValue)
+                query = query.Where(x => x.MedicalRecordTypeId == filter.MedicalRecordTypeId);
+
+            if (filter.StartDateFrom.HasValue)
+                query = query.Where(x => x.StartDate >= filter.StartDateFrom);
+
+            if (filter.EndDateFrom.HasValue)
+                query = query.Where(x => x.EndDate <= filter.EndDateFrom);
+
+            var totalCount = await query.CountAsync();
+
+            var medicalR = await query
+                .Skip((filter.Page - 1) * filter.PageSize)
+                .Take(filter.PageSize)
+                .ToListAsync();
+
+            return (medicalR, totalCount);
         }
 
         public async Task<TMedicalRecord?> GetMedicalRecordById(int medicalRecordId)
